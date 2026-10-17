@@ -3,15 +3,11 @@ from turtle import Turtle,Screen
 hahshul=Turtle()
 screen=Screen()
 
-hahshul.forward(100)
-hahshul.left(90)
-hahshul.forward(100)
-hahshul.left(90)
-hahshul.forward(100)
-hahshul.left(90)
-hahshul.forward(100)
-hahshul.left(90)
+for i in range(4):
+    hahshul.forward(100)
+    hahshul.left(90)
 
 
 
-screen.exitonclick()
+
+screen.exitonclick()    
